@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../apexcharts.min.js"></script>
+
+</head>
+
+<body>
+
+    <div id="grafico_001"></div>
+    <button onclick="alterarDados()">Atualizar</button>
+
+    <script>
+        // vai buscar o elemento HTML onde o gráfico vai ser renderizado 
+        let el_001 = document.getElementById("grafico_001")
+
+        // definição das opções do gráfico 
+        let options_001 = {
+            /////////////////////////// chart
+            chart: {
+                type: 'bar',
+                width: 700,
+                height: 500
+            },
+
+            /////////////////////////// series
+            series: [
+                {
+                    name: 'Homens',
+                    data: [12, 35, 76, 45, 23, 40, 28]
+                },
+                {
+                    name: 'Mulheres',
+                    data: [22, 18, 32, 56, 63, 20, 42]
+                },
+            ],
+
+            xaxis: {
+                categories: ['2. ª feira', '3.ª feira', '4. ª feira', '5.ª feira', '6.ª feira', 'Sábado', 'Domingo']
+            },
+
+        };
+
+        // criação do objeto a partir da biblioteca ApexCharts 
+        let chart_001 = new ApexCharts(el_001, options_001)
+
+        // renderização do gráfico na página
+        chart_001.render()
+
+        //Function
+        function alterarDados() {
+            chart_001.updateSeries(
+                [
+                    {
+                        data: [12, 35, 76, 45, 23, 40, 28]
+                    }
+                ]
+            );
+        }
+
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+
+APEXCHARTS #01 INTRODUÇÃO
+https://www.youtube.com/watch?v=ObrwYf7lYy0
+
+APEXCHARTS #02 COMO LER A DOCUMENTAÇÃO
+https://www.youtube.com/watch?v=Jn5WY2ijRdA
+
+APEXCHARTS #03 CONSTRUÇÃO DE UM GRÁFICO DE BARRAS
+https://www.youtube.com/watch?v=xucT2iVS64s
+
+APEXCHARTS #04 CONSTRUÇÃO DE UM GRÁFICO DE LINHAS
+https://www.youtube.com/watch?v=kmY_KyhiDoU
+
+APEXCHARTS #05 CONSTRUIR GRÁFICO COM PHP E MYSQL
+https://www.youtube.com/watch?v=V55q_6nx1B8
+
+APEXCHARTS #06 CONSTRUIR GRÁFICO COM PHP E MYSQL AINDA MAIS DINÂMICO
+https://www.youtube.com/watch?v=06tTS7t3saU
+
+APEXCHARTS #07 ATUALIZAR DADOS DE UM GRÁFICO SEM REFRESCAR A PÁGINA
+https://www.youtube.com/watch?v=LuKv944GufQ
+
+APEXCHARTS #08 ATUALIZAÇÃO DO GRÁFICO COM AJAX
+https://www.youtube.com/watch?v=SAPalLkcGKw
+
+APEXCHARTS #09 GRÁFICO DE BARRAS COM AJAX E COM ATUALIZAÇÃO A CADA SEGUNDO
+https://www.youtube.com/watch?v=cP2u9rDp3d4
+
+APEXCHARTS #10 PROJETO FINAL COM PHP, AJAX E MYSQL
+https://www.youtube.com/watch?v=Rpe9BMzGoEs
